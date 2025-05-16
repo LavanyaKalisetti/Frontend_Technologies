@@ -1,0 +1,48 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:darkseagreen;
+}
+.container {
+    box-sizing: 150px;
+    background-color:floralwhite;
+    text-align: center;
+}
+h1{
+        text-align: center;
+        font-family:cursive;
+        font-weight: 600;
+        color: brown;
+}
+
+.counter{
+    text-align:center;
+    margin-top: 50px;
+}
+#count{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+#increment {
+    background-color:green;
+}
+#decrement {
+    background-color:red;
+}
+#reset {
+    background-color:yellow;
+}
+button{
+    width: 150px;
+    height: 50px;
+    font-size: 24px;
+    margin:0 10px;
+    color:black;
+}
+#parity{
+    font-size: 24px;
+    margin-top: 20px;
+}

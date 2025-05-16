@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    img {
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  height: 150px;
+}
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        background-color: #007BFF;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+    
+    .grid-item {
+        text-align: center;
+    }
+    
+    .grid-item img {
+        width: 100%;
+        height: auto;
+    }
+    
+    section {
+        padding: 20px;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    form label {
+        margin-top: 10px;
+    }
+    
+    form input, form textarea {
+        padding: 10px;
+        margin-top: 5px;
+    }
+    
+    button {
+        margin-top: 10px;
+        padding: 10px;
+        background-color: #28A745;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    
+    footer {
+        text-align: center;
+        padding: 10px 0;
+        background-color: #333;
+        color: white;
+    }
+    
+    </style>
+    
+<body>
+    <body>
+        <header>
+            <h1>Travel Adventures</h1>
+            <nav>
+                <ul>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section id="destinations">
+            <h2>Explore Our Destinations</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/4b/59/86/caption.jpg?w=1400&h=1400&s=1" alt="Paris">
+                    <h3>Paris, France</h3>
+                </div>
+                <div class="grid-item">
+                    <img src="https://media.istockphoto.com/id/653953140/photo/hindu-temple-in-bali.jpg?s=612x612&w=0&k=20&c=ysj3S2kV1ZgCr4QZWDzjvHRowCI3-cR1xQNnqE8-BS4=" alt="Bali">
+                    <h3>Bali, Indonesia</h3>
+                </div>
+                <div class="grid-item">
+                    <img src="https://i.natgeofe.com/k/5b396b5e-59e7-43a6-9448-708125549aa1/new-york-statue-of-liberty.jpg" alt="New York City">
+                    <h3>New York City, USA</h3>
+                </div>
+                <div class="grid-item">
+                    <img src="https://img.freepik.com/free-photo/aerial-view-tokyo-cityscape-with-fuji-mountain-japan_335224-148.jpg" alt="Tokyo">
+                    <h3>Tokyo, Japan</h3>
+                </div>
+            </div>
+        </section>
+        
+        <section id="gallery">
+            <h2>Photo Gallery</h2>
+            <p>Check out our amazing travel experiences!</p>
+            <img src="https://visitukraine.today/media/blog/previews/JeIwDwENp6lwg2lJXkVjsE6crP40UFQkJnAftEMh.webp" alt="Gallery Image 1">
+            <img src="https://cdn.shopify.com/s/files/1/0319/8721/files/why-should-you-travel_600x600.jpg?v=1622178579" alt="Gallery Image 2">
+            <img src="https://img.freepik.com/premium-photo/family-three-hiking-mountains-they-are-wearing-backpacks-holding-hands-sun-is-setting-sky-is-orange_14117-475425.jpg" alt="Gallery Image 3">
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        
+        <footer>
+            <p>&copy; 2024 Travel Adventures. All rights reserved.</p>
+        </footer>
+    
+</body>
+</html>

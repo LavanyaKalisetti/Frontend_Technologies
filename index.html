@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    /* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    }
+    
+    a {
+    color: #0077c0;
+    text-decoration: none;
+    }
+    img {
+      width: 50%;
+      height: 50%; 
+      background-position: fixed;
+      background-repeat: no-repeat;
+      background-size: cover; 
+    }
+    
+    a:hover {
+    text-decoration: underline;
+    }
+    
+    /* Header styles */
+    header {
+    background-color: #0077c0;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    }
+    
+    .logo {
+    font-size: 32px;
+    font-weight: bold;
+    }
+    
+    nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    div1 {
+        width: 200px;
+        height: 200px;
+     justify-content: space-between;
+    }
+    
+    nav a {
+    color: #fff;
+    margin: 0 10px;
+    }
+    
+    nav a:hover {
+    color: #ffd700;
+    }
+    
+    /* Banner styles */
+    .banner {
+    background-image: url('img/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    }
+    
+    .banner h1 {
+    color: #fff;
+    font-size: 48px;
+    margin-top: 150px;
+    text-align: center;
+    text-shadow: 2px 2px #000;
+    }
+    
+    /* Services styles */
+    .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:
+    50px 0;
+    }
+    
+    .services article {
+    background-color: #fff;
+    box-shadow: 2px 2px 5px #ccc;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    }
+    
+    .services article h3 {
+    font-size: 24px;
+    margin-top: 0;
+    }
+    
+    .services article p {
+    margin-bottom: 0;
+    }
+    
+    /* About styles */
+    .about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px auto;
+    max-width: 960px;
+    padding: 0 20px;
+    }
+    
+    .about img {
+    border-radius: 50%;
+    height: 200px;
+    margin: auto;
+    }
+    
+    .about p {
+    margin-top: 20px;
+    text-align: justify;
+    }
+    
+    /* Contact styles */
+    form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px auto;
+    max-width: 960px;
+    padding: 0 20px;
+    }
+    
+    form input[type="text"], form input[type="email"], form textarea {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #ccc;
+    padding: 10px;
+    width: 100%;
+    }
+    
+    form input[type="submit"] {
+    background-color: #0077c0;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px 20px;
+    }
+    
+    form input[type="submit"]:hover {
+    background-color: #ffd700;
+    }
+    
+    .contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px auto;
+    max-width: 960px;
+    padding: 0 20px;
+    }
+    
+    .contact h4 {
+    margin-top: 0;
+    }
+    
+    .contact p {
+    margin-bottom: 0;
+    }
+    
+    .social-media {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    }
+    
+    .social-media a {
+    color: #0077c0;
+    font-size: 24px;
+    margin: 0 10px;
+    }
+    
+    .social-media a:hover {
+    color: #ffd700;
+    }
+</style>
+<body>
+    <header>
+        <div1 class="logo">
+            <a href="https://www.traveltales.com/in/your-profile-url"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsNJbBFFkAnLWiLoG1r5Fl40Bz2y_YbGFZ7A&s" width="50px" height="50px"</a>
+         <a href="#">TRAVELTALES</a>
+         <h1><center>TRAVEL-TALES</center></h1>
+        </div1>
+        <nav>
+         <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Destinations</a></li>
+          <li><a href="#">Contact</a></li>
+         </ul>
+        </nav>
+       </header>
+       <h1>Welcome to " EXPLOREWITHUS"</h1>
+       
+       <section class="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="destination">
+         <img src="https://th.bing.com/th/id/OIP.9DfB7IDaOMv-4BG_klL5LwHaEK?rs=1&pid=ImgDetMain" alt="Destination 1">
+         <h3>New York</h3>
+        </div>
+        <div class="destination">
+         <img src="https://hdwallpaperim.com/wp-content/uploads/2017/08/31/149631-HDR-France-Paris-cityscape.jpg" alt="Destination 2">
+         <h3>Paris</h3>
+        </div>
+        <div class="destination">
+         <img src="https://travel.usnews.com/dims4/USNEWS/18b2dab/2147483647/resize/976x652%5E%3E/crop/976x652/quality/85/?url=https:%2F%2Ftravel.usnews.com%2Fimages%2FTokyo_Tower_at_Night-Eakkawatna-Getty.jpg" alt="Destination 3">
+         <h3>Tokyo</h3>
+        </div>
+       </section>
+       <footer>
+        <div class="contact">
+         <h4>Contact Us</h4>
+         <p>Email: info@mytravelagency.com</p>
+         <p>Phone: 1-800-123-4567</p>
+        </div>
+        <div class="social-media">
+         <h4>Follow Us</h4>
+         <a href="#"><i class="fab fa-facebook-f"></i></a>
+         <a href="#"><i class="fab fa-twitter"></i></a>
+         <a href="#"><i class="fab fa-instagram"></i></a>
+         <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+       </footer>
+</body>
+</html>

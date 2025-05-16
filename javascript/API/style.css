@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* .headPara{
+    text-align: center;
+    background-color:black;
+    font-size: 40px;
+    padding: 10px;
+    color:aliceblue;
+}
+#mainDiv{
+    height: 200px;
+    width: 600px;
+    display: flex;
+    /* justify-content: center;
+    align-items:center;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+} */
+ body{
+    font-family:arail,sans-serif;
+    text-align: center;
+ }
+ #fetch-btn{
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color:#fff;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+ }
+ #fetch-btn:hover{
+    background-color: #3e8e41;
+}
+#data-container{
+    margin-top:20px;
+}

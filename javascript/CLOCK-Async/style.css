@@ -1,0 +1,48 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:Arial,sans-serif;
+    background-color: grey;
+    text-align:center;
+}
+#clock-display{
+    font-size:48px;
+    font-weight: bold;
+    margin-bottom:20px;
+}
+button{
+    width:100px;
+    height:30px;
+    font-size:16px;
+    margin:10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#clock-container{
+    width: 300px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #dddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+button:hover{
+    background-color:#3e8e41;
+}
+#start-button{
+    background-color: #4CAF50;
+}
+#stop-button{
+    background-color: #f44336;
+}
+#reset-button{
+    background-color: #03A9F4;
+}
+
